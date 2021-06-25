@@ -1,0 +1,62 @@
+@import url(all.min.css);
+@import url(fonts.css);
+
+:root{
+    --main-color: #313131;
+    --text: #313131;
+    --font-m: 'Noto Sans';
+    --body: #fff;
+}
+body{
+    font-family: var(--font-m);
+    background: var(--body);
+}
+
+
+
+
+
+.item__link{
+    font-family: var(--font-m);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.item__link:hover{
+    color: #fff !important;
+}
+
+.item__link i{
+    margin-right: 7px;
+}
+
+.nav__dropdown{
+    display: block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    font-family: var(--font-m);
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background-color: #212529;
+    border-color: #212529;
+}
+.btn-secondary:hover {
+    background-color: #212529;
+    border-color: #212529;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
