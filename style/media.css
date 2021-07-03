@@ -5,6 +5,81 @@
         border: 2px solid #313131;
     }
 }
+
+
+@media (max-width:1465px) {
+    .skitka__left{
+        width: 500px;
+        height: 370px;
+    }
+    .skitka__left img{
+        width: 500px;
+        height: 370px;
+    }
+
+    .skitka__right{
+        width: 500px;
+        height: 370px;
+    }
+    .right__top{
+        width: 500px;
+        height: 170px;
+    }
+    .right__top img{
+        width: 500px;
+        height: 170px;
+    }
+    .skitka__descr{
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .skitka__descr2{
+        font-size: 20px;
+        line-height: 50px;
+        bottom: -20px;
+    }
+    .right-bottom__left{
+        width: 235px;
+        height: 170px;
+    }
+    .right-bottom__left img{
+        width: 235px;
+        height: 170px;
+    }
+    .right-bottom__left::after{
+        font-size: 15px;
+        line-height: 40px;
+        padding: 0px 2px;
+    }
+    .right-bottom__right{
+        width: 235px;
+        height: 170px;
+    }
+    .right-bottom__right img{
+        width: 235px;
+        height: 170px;
+    }
+    .right-bottom__right::after{
+        font-size: 15px;
+        line-height: 40px;
+        padding: 0px 2px;
+    }
+    .skitka__descr-bottom{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .skitka__descr2-bottom{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .skitka__descr2-bottom2{
+        font-size: 20px;
+        line-height: 43px;
+    }
+
+}
+
+
 @media (max-width:1200){
     .nav__search{
         margin: 0 auto;
@@ -12,6 +87,93 @@
         justify-content: center;
     }
 }
+
+@media (max-width:1080px) {
+    .skitka__left{
+        width: 400px;
+        height: 296px;
+    }
+    .skitka__left img{
+        width: 400px;
+        height: 296px;
+    }
+
+    .skitka__right{
+        width: 400px;
+        height: 296px;
+    }
+    .right__top{
+        width: 400px;
+        height: 136px;
+    }
+    .right__top img{
+        width: 400px;
+        height: 136px;
+    }
+    
+    .skitka__left::after{
+        font-size: 12px;
+        line-height: 25px;
+        padding: 7px 5px;
+    }
+    .right__top::after{
+        font-size: 12px;
+        line-height: 25px;
+        padding: 7px 5px;
+    }
+    .right-bottom__left::after{
+        font-size: 12px;
+        line-height: 25px;
+        padding: 7px 5px;
+    }
+    .right-bottom__right::after{
+        font-size: 12px;
+        line-height: 25px;
+        padding: 7px 5px;
+    }
+    .right-bottom__left{
+        width: 188px;
+        height: 136px;
+    }
+    .right-bottom__left img{
+        width: 188px;
+        height: 136px;
+    }
+    
+    .right-bottom__right{
+        width: 188px;
+        height: 136px;
+    }
+    .right-bottom__right img{
+        width: 188px;
+        height: 136px;
+    }
+    
+    .skitka__descr{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .skitka__descr2{
+        font-size: 18px;
+        line-height: 20px;
+        bottom: -14px;
+    }
+    .skitka__descr-bottom{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .skitka__descr2-bottom{
+        font-size: 15px;
+        line-height: 7px;
+    }
+    .skitka__descr2-bottom2{
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+}
+
+
 @media (max-width:1024px) {
     .form-control{
         height: 45px;
@@ -19,6 +181,8 @@
         border: 1px solid #313131;
     }
 }
+
+
 @media (max-width:992px) {
     .form-control{
         height: 40px;
@@ -32,6 +196,8 @@
     }
     
 }
+
+
 @media (max-width:770px){
     .form-control{
         height: 30px;
@@ -49,6 +215,8 @@
     }
     
 }
+
+
 @media (max-width:575px) {
     .nav-item span{
         display: none;
