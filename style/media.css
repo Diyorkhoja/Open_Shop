@@ -87,16 +87,15 @@
         justify-content: center;
     }
     .phone__card{
-        width: 200px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .absolute{
-        left: 12px;
-    }
     .second__title{
         text-align: center;
+    }
+    .ps-content__right img{
+        width: 1000px;
     }
 }
 
@@ -105,6 +104,12 @@
         margin: 0 auto;
         display: flex;
         justify-content: center;
+    }
+    .ps-content__right img{
+        width: 950px;
+    }
+    .footer__logo{
+        margin-right: 100px;
     }
 }
 
@@ -190,7 +195,13 @@
         font-size: 14px;
         line-height: 30px;
     }
+    .ps-content__right img{
+        width: 900px;
+    }
 
+    .footer__logo{
+        margin-right: 50px;
+    }
 }
 
 
@@ -198,7 +209,44 @@
     .form-control{
         height: 45px;
         width: 350px;
-        border: 1px solid #313131;
+        border: 1px solid #313131 !important;
+    }
+    .phone__cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .phone__card{
+        width: 300px;
+    }
+    .wrapperr{
+        display: flex;
+    }
+    .absolute{
+        left: auto;
+    }
+
+    .footer__logo{
+        margin-right: 30px;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .footer__title{
+        text-align: center;
+    }
+    .wrap{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .footer__btn{
+        margin-bottom: 20px;
+    }
+    .footer__input{
+        margin-bottom: 20px;
+    }
+    .footer__list{
+        justify-content: center;
     }
 }
 
@@ -213,6 +261,9 @@
     }
     .btn-outline-success{
         width: 65px;
+    }
+    .ps-content__right img{
+        display: none;
     }
     
 }
@@ -264,5 +315,7 @@
     .nav-link{
         padding: 8px 8px !important;
     }
-
+    .wrapperr{
+        display: inline;
+    }
 }
